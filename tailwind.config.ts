@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'openpolitica': {
+					'navy': '#1A3C6D',
+					'cyan': '#2EB1D6',
+					'offwhite': '#F7FAFD',
+					'slate': '#0F172A'
 				}
 			},
 			borderRadius: {
@@ -152,14 +159,6 @@ export default {
 			fontFamily: {
 				'poppins': ['Poppins', 'sans-serif'],
 				'lato': ['Lato', 'sans-serif']
-			},
-			colors: {
-				'openpolitica': {
-					'navy': '#1A3C6D',
-					'cyan': '#2EB1D6',
-					'offwhite': '#F7FAFD',
-					'slate': '#0F172A'
-				}
 			}
 		}
 	},
